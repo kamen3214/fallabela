@@ -1,0 +1,284 @@
+/* editar el html */
+html{
+    background-color: white; /* definir el color del fondo del html */
+
+}
+/* editar el cuerpo del html */
+body{
+    height: 100%;  /* definir el tamaño "altura" del html */
+    margin: 0; /* definir el tamaño del margen */
+    padding: 0; /* el borde blanco del contorno */
+} 
+/* editar la parte superior del html */
+.superior table{
+
+    border-collapse: collapse; /* sin bordes */
+    background-color: black; /* color del fondo */
+    color: white; /* color de las letras */
+    width: 100%; /* definir el ancho  */
+    text-align: left;  /* definir hacia que lado se pega el texto */
+    width: 100%;
+    border-collapse: collapse;
+
+}
+/* editar el td de la clase superior  */
+.superior td{
+    border: 1px solid black; /* definir el color del borde y el tamaño */
+    padding: 5px; /* el borde en el contenido */
+    display: inline-block;
+    margin-right: 20px; /* margen derecho */
+    text-align: center; /* texto alineado en el centro */
+    font-size: 15px /* tamaño de la letra */
+
+}
+
+  /* editar las imagenes de la clase superior */
+.superior img{
+    width:20px; /* anchura */
+    height:20px; /* altura */
+
+}
+
+/* editar la clase logo */
+.logo{
+    background-color: white; /* Color de fondo */
+    padding: 10px; /* Espacio interno */
+    border-radius: 10px; /* Contorno redondeado */
+    overflow: hidden; /* Asegurarse de que el contenedor se adapte al contenido */
+    
+}
+/* editar las imagenes de la clase logo */
+.logo img{
+    width: 400px; 
+    height:125px;
+    float: left; /* Imagen a la izquierda */
+    margin-right: 10px; /* Espacio entre la imagen y el botón */
+    padding-left: 90px;
+}
+/* editar el boton de la clase logo */
+.logo button{
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: #FFFFFF; /* Color de letra blanco */
+    border-radius: 10px; /* Contorno redondeado */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Sin borde */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 16px; /* Tamaño de letra */
+    margin: 35px 10px 10px; /* Margen exterior */
+    margin-right: 70px; /* Botón a la izquierda */
+    margin-left: 0; /* Quitar margen izquierdo */
+    float: right; /* que se pege hacia un lado */
+    
+    
+}
+/* editar la clase alineado */
+.alineado1 {
+    float: right;
+  }
+/* editar la clase cuentas */
+  .cuentas {
+    border-collapse: collapse;
+    border-left: 1px solid gray; /* color y tamaño del borde */
+    width: 100%;
+    background-color: white;
+  }
+  /* editar el td dentro de cuentas */
+  .cuentas td {
+    border: none;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+    border-right: 1px solid gray;
+    margin-left: 30px; 
+    margin-right: 30px;
+    text-align: center;
+    margin: 20px;
+  }
+   /* editar el ultimo td */
+  .cuentas td:last-child {
+    border-right: 1px solid white;
+  }
+  /* editar la tabla dentro de la clase cuentas */
+.cuentas table{
+    text-align: center;
+
+    margin: 0 auto;
+}
+ /* editar las imagenes dentro de la clase slider */
+.slider img{
+    display: block;
+    margin: 0 auto;
+}
+
+    /*  editar la tabla dentro de la clase simular*/
+.simular table{
+
+    border-collapse: collapse;
+    background-color: rgba(185, 185, 185, 0.603);
+    color: black;
+    text-align: left;
+    width: 1000px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin: 0 auto;
+
+}
+/* editar los td de la clase simular */
+.simular td{
+    border: collapse;
+    padding: 5px;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 25px;
+    text-align: right;
+    vertical-align: middle;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* definir el tipo de fuente  */
+    font-weight: 100; /* definir el tamaño de la fuente */
+}
+
+/* editar los inputs del html */
+input{
+    width: 300px;
+    height: 40px;
+}
+/* editar la clase boton12 */
+.boton12{
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: #FFFFFF; /* Color de letra blanco */
+    border-radius: 10px; /* Contorno redondeado */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Sin borde */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 16px; /* Tamaño de letra */
+    margin: 35px 10px 30px; /* Margen exterior */
+    margin-right: 70px; /* Botón a la izquierda */
+    margin-left: 0; /* Quitar margen izquierdo */
+    float: right;
+
+}
+/* editar la clase fakecarrusel1 */
+.fakecarrusel1{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+/* editar la clase cont1 */
+.cont1{
+    width: 80%; 
+    max-width: 800px; 
+    display: flex; 
+    align-items: center;
+}
+/* editar la clase cont2 */
+.cont2{
+    text-align: center;
+    font-size: 20px;
+
+}
+/* editar la clase cont3img */
+.cont3img{
+    flex: 1;
+    text-align: center;
+    max-width: 100%;
+    height: auto; 
+    border-radius: 10px;
+    margin: 40px;
+}
+/* editar la clase container1 */
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* editar las imagenes dentro de container1 */
+.container1 img {
+    margin-left: 150px;
+    text-align: center;
+    width: 450px;
+    height: 250px; 
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* editar las p(texto) de la clase container1 */
+.container1 p{
+    text-align: center;
+    font-size: 20px;
+
+}
+/* editar los botones */
+.boton{
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: #FFFFFF; /* Color de letra blanco */
+    border-radius: 10px; /* Contorno redondeado */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Sin borde */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 16px; /* Tamaño de letra */
+    margin: 35px 10px 30px; /* Margen exterior */
+    margin-right: 60px; /* Botón a la izquierda */
+    margin-left: 0; /* Quitar margen izquierdo */
+    float: center;
+    font-size: 20px;
+
+}
+/* editar la clase container2 */
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* editar las imagenes dentro de container2 */
+.container2 img {
+    margin-right: 150px;
+    text-align: center;
+    width: 450px;
+    height: 250px; 
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* editar las p(texto) dentro de container2 */
+.container2 p{
+    text-align: center;
+    font-size: 20px;
+
+}
+/* editar el footer del html */
+footer {
+    background-color: #1d1d1dea;
+    color: #fff;
+    padding: 20px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+/* editar la clase listas */
+.listas{
+    display:flex;
+}
+/* editar los ol de la clase listas */
+.listas ol{
+    list-style-type: none; /* sin los numeros de la lista ordenada*/
+}
+/* editar los li de la clase listas */
+.listas li{
+    padding: 7px;
+}
+/* editar la clase letrasinferiores */
+.letrasinferiores{
+    text-align: center;
+}
+/* editar las imagenes de la clase letrasinferiores */
+.letrasinferiores img{
+        float: right;
+        border: 30px;
+        width: 30px;
+        height: 30px;
+}
